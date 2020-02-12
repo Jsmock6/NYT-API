@@ -1,0 +1,93 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(../01-New-York-Times/assets/thebestcentralpark.jpg);
+    background-size: cover;
+    color: darkgreen;
+    font-size: 20px;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+  }
+  
+  .controls, .results {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  form p:nth-of-type(1) {
+    margin-top: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  article p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  article p:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  nav {
+    margin-bottom: 50px;
+  }
+  
+  .prev {
+    float: left;
+    border-color: lightgreen;
+  }
+  
+  .next {
+    float: right;
+    border-color: lightgreen;
+  }
+  
+  article {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+  }
+  
+  img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  span {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .scrollBox {
+      height: 65vh;
+      overflow-y: scroll;
+      overflow-y: auto;
+  }
+
+  .mainBox {
+      background-color: lightgreen;
+      padding: 5px;
+      width: fit-content;
+      border-radius: 5px;
+  }
+
+  
